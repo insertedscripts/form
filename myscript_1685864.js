@@ -1,4 +1,4 @@
-document.getElementById("header-text").onmouseover
+//document.getElementById("header-text").onmouseover
 window.onload = function percentage() {
 //var subm = document.querySelectorAll("#myitemlist_myitemlist132083 h2").innerText;
 var $subm = $("#myitemlist_myitemlist132083 h2").text();
