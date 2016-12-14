@@ -7,7 +7,7 @@ var $subm = $("#myitemlist_myitemlist132083 h2").text();
 var $goal = $("#myitemlist_myitemlist132084 .widgettitle > span").text();
 //var goal = document.getElementById("myitemlist_myitemlist132084").innerHTML;
 //document.querySelectorAll("#myitemlist_myitemlist132095 .widgettitle > span").innerHTML = subm;
-$("#myitemlist_myitemlist132095 .widgettitle > span").text($subm);
+$("#myitemlist_myitemlist132095 .widgettitle > span").text($subm/$goal);
 //document.write("a"+subm+"b")
 //document.getElementById("myitemlist_myitemlist132095").innerHTML = subm*goal;
 }
