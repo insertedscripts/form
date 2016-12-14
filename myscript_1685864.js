@@ -8,5 +8,5 @@ var goal = document.getElementById("myitemlist_myitemlist131634").innerHTML;
 //document.querySelectorAll("#myitemlist_myitemlist132095 .htmlwidget").innerHTML = subm*goal;
 //$("#myitemlist_myitemlist132095 .widgettitle span:first").text($goal);
 //document.write(goal)
-document.getElementById("myitemlist_myitemlist132095").innerText = subm*goal;
+document.getElementById("myitemlist_myitemlist132095").innerHTML = subm*goal;
 }
