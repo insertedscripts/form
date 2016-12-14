@@ -7,6 +7,6 @@ var $goal = $("#myitemlist_myitemlist131634 .widgettitle span:first").text();
 //var goal = document.getElementById("#myitemlist_myitemlist131634").innerText;
 //document.querySelectorAll("#myitemlist_myitemlist132095 .htmlwidget").innerHTML = subm*goal;
 //$("#myitemlist_myitemlist132095 .widgettitle span:first").text($goal);
-  document.write('*Hello, there!*')
+  document.write($goal)
 //document.getElementById("#myitemlist_myitemlist132095").innerText = subm*goal;
 }
