@@ -26,10 +26,10 @@ document.getElementById("id123-button-send").style.display=s;
 document.getElementById("mainform123").onmouseover = function fillcheckfield() {
 var coupon = document.getElementById("id123-couponcode").value;
 if (coupon == "CHECK") {
-d = "CHECK";
+s = "CHECK";
 }
 if (coupon == "968Q1VRF") {
-d = "968Q1VRF";
+s = "968Q1VRF";
 }
 document.getElementById("id123-control24821877").value=d;
 }
