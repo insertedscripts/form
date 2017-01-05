@@ -31,5 +31,5 @@ s = "CHECK";
 if (coupon == "968Q1VRF") {
 s = "968Q1VRF";
 }
-document.getElementById("id123-control24821877").value=d;
+document.getElementById("id123-control24821877").value=s;
 }
