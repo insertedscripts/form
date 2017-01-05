@@ -1,14 +1,14 @@
 document.getElementById("mainform123").onmouseover = function zerototal() {
 var coupon = document.getElementById("id123-couponcode").value;
 if (coupon == "968Q1VRF") {
-document.getElementById("id123-control20644108").value=0;
+document.getElementById("id123-control24821878").value=0;
 }
 }
 
 
 document.getElementById("mainform123").onchange = function hidesubmit() {
-var payonline = document.getElementById("id123-control20642110_0").checked;
-var paybycheck = document.getElementById("id123-control20642110_1").checked;
+var payonline = document.getElementById("id123-control24821876_0").checked;
+var paybycheck = document.getElementById("id123-control24821876_1").checked;
 var couponchk = document.getElementById("id123-couponcode").value;
 if (paybycheck === true && couponchk == "CHECK") {
 s = "inline-block";
@@ -31,5 +31,5 @@ s = "CHECK";
 if (coupon == "968Q1VRF") {
 s = "968Q1VRF";
 }
-document.getElementById("id123-control20093333").value=s;
+document.getElementById("id123-control24821877").value=s;
 }
