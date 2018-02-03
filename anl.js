@@ -1,7 +1,18 @@
-(function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,’script’,’//www.google-analytics.com/analytics.js’,’ga’);
-
-ga(‘create’, ‘UA-107263866-1‘, ‘auto’);
-ga(‘send’, ‘pageview’);
+function bindEvent(element, eventName, eventHandler) {
+    if (element.addEventListener){
+        element.addEventListener(eventName, eventHandler, false);
+    } else if (element.attachEvent) {
+        element.attachEvent('on' + eventName, eventHandler);
+    }
+}
+var sendMessage = function (msg) {
+    window.parent.postMessage(msg, '*');
+};
+bindEvent(window, 'load', function (e) {
+    sendMessage({
+        msg_id: '123formBuilderAnalitycs',
+        msg:'google_analitics',
+        google_universal_script:'1',
+        google_analytics_user_id: 'UA-107263866-1'
+    });
+});
