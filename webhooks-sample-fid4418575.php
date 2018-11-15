@@ -37,7 +37,7 @@ $emailtxt.="Referer is "; $emailtxt.="$formdata[referer]\r\n";
 
 
 // Now lets send an email
-$from="From: automated.applications.tests@123formbuilder.com<automated.applications.tests@123formbuilder.com>\r\nReturn-path: automated.applications.tests@123formbuilder.com";
+$from="From: noreply@123formbuilder.com<noreply@123formbuilder.com>\r\nReturn-path: noreply@123formbuilder.com";
 mail("petru@123formbuilder.io", 'WebHooks Example', $emailtxt, $from);
 
 // Now that you understood how WebHooks work, you can go for advanced tasks:
