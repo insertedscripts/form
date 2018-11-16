@@ -13,7 +13,7 @@ $printtxt="Received data:\r\n";
 $printtxt.="$formdata[controlname47504547] is "; $printtxt.="$formdata[controlvalue47504547]\r\n";
 */
 
-$deprintat = DOMDocument::getElementByTagName("input")[1];
+$deprintat = DOMDocument::getElementsByTagName("input")[1];
 
 echo $deprintat;
 
