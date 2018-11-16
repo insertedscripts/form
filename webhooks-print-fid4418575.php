@@ -4,7 +4,7 @@
   
   <?php
 
-$deprintat = DOMDocument::getElementsByTagName("input")[1];
+$deprintat = DOMDocument::getElementById("text-00000008-acc");
 
 echo $deprintat;
 
