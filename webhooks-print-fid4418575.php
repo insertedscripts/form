@@ -15,6 +15,6 @@ $printtxt.="$formdata[controlname47504547] is "; $printtxt.="$formdata[controlva
 
 $deprintat = DOMDocument::getElementByTagName("input")[1];
 
-print $printtxt;
+print $deprintat;
 
 ?>
