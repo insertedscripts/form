@@ -1,4 +1,4 @@
-document.getElementsByTagName("button")[0].click = myFunction();
+document.getElementsByTagName("button")[0].click = myFunction;
 
 function myFunction() {
     var deprintat = document.getElementById("text-00000008-acc").value;
