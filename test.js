@@ -1,16 +1,9 @@
-document.addEventListener('load', function() {
-
-    document.querySelectorAll('[name=c_00000009]').forEach(function(r) {
-
-        r.addEventListener('change', function(e) {
-
-            document.querySelectorAll('[name=c_00000009]').forEach(function(r2) {
-                r2.parentNode.parentNode.removeAttribute('data-selected');
-            });
-
-            e.target.parentNode.parentNode.setAttribute('data-selected', '1');
-        });
-
-    });
-
+console.log("loaded test.js");
+window.$(document).ready(function() {
+   $("[data-role=choice]").click(function() {
+       console.log("CLICKED TEST");
+      var selectedEl = $( this );
+      selectedEl.siblings( "[data-selected=1]" ).removeAttr("data-selected");
+      selectedEl.attr("data-selected", "1");
+   });
 });
