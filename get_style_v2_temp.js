@@ -1,4 +1,3 @@
-<style>
 
 
 		document.onmouseover = function mousepos(event) {
@@ -89,6 +88,3 @@ document.onmouseover = function myCSS(event) {
 	
 	};
 	
-
-
-</style>
